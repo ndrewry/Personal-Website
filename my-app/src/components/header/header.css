@@ -35,17 +35,6 @@ header{
     background: var(--color-primary);
 }
 
-.cute {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: max-content;
-    position: relative;
-    left: 80%;
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-
-
-}
 
 .scroll__down {
     position: absolute;
