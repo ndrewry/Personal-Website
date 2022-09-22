@@ -7,11 +7,28 @@ import {FaThList} from 'react-icons/fa'
 
 const Nav = () => {
   return (
-    <nav>
-      <a href="#"><AiFillHome/></a>
-      <a href="#contact"><IoMdContact/></a>
-      <a href="#about"><FaUserAlt/></a>
-      <a href="#experience"><FaThList/></a>
+   
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><AiFillHome/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><IoMdContact/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><FaUserAlt/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience"><FaThList/></a>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }
